@@ -2,7 +2,7 @@ import React from 'react'
 import Dark from '../assets/images/darkvslight.svg'
 
 function MainLayouts() {
-    
+
     return (
         <div>
             <header className='bg-stone-50'>
@@ -16,6 +16,8 @@ function MainLayouts() {
                     <div className='flex items-center gap-2'>
                         <img className='cursor-pointer w-[20px] h-[20px]' src={Dark} alt="dark vs ligh svg images" />
                         <h3>Dark Mode</h3>
+
+                        <Link to='/Register'>registerga otish</Link>
                     </div>
                 </div>
             </header>
