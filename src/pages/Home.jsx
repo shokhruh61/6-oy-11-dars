@@ -1,10 +1,15 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-
+import Afghanistan from "../assets/images/afghanistan.png"
 function Home() {
   return (
     <div>
-      <Link className='text-white text-2xl' to='/Register'>registerga o'tish</Link>
+
+      <div>
+        <div>
+          <img src={Afghanistan} alt="" />
+        </div>
+      </div>
+      
     </div>
   )
 }
