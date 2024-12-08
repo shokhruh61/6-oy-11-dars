@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Home() {
   return (
     <div>
-      <Link to='/Register'>registerga o'tish</LI>
+      <Link className='text-white text-2xl' to='/Register'>registerga o'tish</Link>
     </div>
   )
 }
