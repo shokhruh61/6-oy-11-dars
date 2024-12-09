@@ -1,10 +1,10 @@
 import React from 'react'
 import Dark from '../assets/images/darkvslight.svg'
 
-function MainLayouts() {
+function MainLayouts({ children }) {
     return (
         <div>
-            <header className='bg-stone-50'>
+            <header className='bg-white mt-11 p-[24px]'>
                 <div className=' max-w-[1440px] mx-auto flex items-center justify-between '>
                     <div>
                         <h3 className='items-center font-extrabold text-2xl'>
@@ -18,6 +18,8 @@ function MainLayouts() {
                     </div>
                 </div>
             </header>
+            {children}
+
         </div>
     )
 }

@@ -84,7 +84,6 @@ function Register() {
                 className='max-w-[600px] mx-auto mt-[60px] p-4 text-center border rounded-md border-blue-700 shadow-2xl bg-white'
                 onSubmit={handleRegister}
             >
-                {/* Username Input */}
                 <input
                     className='mt-9 w-[90%] items-center border border-gray-500 p-3 rounded-md'
                     type="text"
@@ -93,7 +92,6 @@ function Register() {
                     placeholder='Ismingizni kiriting'
                 />
 
-                {/* Email Input */}
                 <input
                     className='mt-9 w-[90%] items-center border border-gray-500 p-3 rounded-md'
                     type="email"
@@ -102,7 +100,6 @@ function Register() {
                     placeholder='Emailingizni kiriting'
                 />
 
-                {/* Password Input */}
                 <div className='mt-5 relative'>
                     <input
                         className='w-[90%] items-center border border-gray-500 p-3 rounded-md'
@@ -120,7 +117,6 @@ function Register() {
                     </button>
                 </div>
 
-                {/* RePassword Input */}
                 <div className='mt-5 relative'>
                     <input
                         className='w-[90%] items-center border border-gray-500 p-3 rounded-md'
@@ -138,10 +134,9 @@ function Register() {
                     </button>
                 </div>
 
-                {/* Submit Button */}
                 <button
                     type="submit"
-                    className='border w-[90%] bg-blue-500 rounded-md text-white py-2 px-2 mb-4 transform active:scale-[0.95]'
+                    className='border w-[90%] bg-blue-500 rounded-md text-white py-2 px-2 mb-4 mt-5 transform active:scale-[0.95]'
                     disabled={loading}
                 >
                     {loading ? "LOADING..." : "REGISTER"}
